@@ -1,0 +1,71 @@
+body {
+    font-family: 'Zhi Mang Xing', cursive;
+    margin: 0px;
+}
+
+.together {
+    height: 100vh;
+    background-image: url('together.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+}
+
+.bird {
+    height: 100vh;
+    background-image: url('bird.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;  
+}
+
+.content {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(255, 238, 0);
+    letter-spacing: 0.1em;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(255, 238, 0);
+    letter-spacing: 0.1em;
+    line-height: 45px;
+}
+
+.press,
+.list {
+    padding: 10px 30px;
+    background-color: transparent;
+    color: red;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    border: 1px solid #000000;
+}
+
+button {
+    cursor: pointer;
+    opacity: 0.5;
+    border-color: red;
+    transition: .1s;
+}
+
+.gun {
+    height: 100vh;
+    background-image: url('gun.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    color: #ffffff;  
+}
+
