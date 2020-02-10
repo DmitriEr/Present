@@ -57,6 +57,7 @@ button {
     opacity: 0.5;
     border-color: red;
     transition: .1s;
+    margin: 10px;
 }
 
 .gun {
@@ -69,3 +70,17 @@ button {
     color: #ffffff;  
 }
 
+@media (max-width: 500px) {
+
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 10px;
+    }
+
+    .text {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 10px;
+    }
+}
